@@ -1,1 +1,22 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+.classBackground {
+  width: 500px;
+  padding: 10px;
+  background-color: yellow;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-family: "DM Mono", monospace;
+  font-style: normal;
+  color: rgba(3, 0, 0, 0.788);
+}
+
+.divTitle {
+  background-color: rgb(17, 0, 116);
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 50px;
+  font-family: "DM Mono", monospace;
+  font-style: normal;
+}
