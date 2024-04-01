@@ -1,5 +1,13 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+}
+
 .classBackground {
   width: 500px;
   padding: 10px;
@@ -12,11 +20,9 @@
 }
 
 .divTitle {
+  width: 500px;
   background-color: rgb(17, 0, 116);
   color: white;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  margin-top: 50px;
-  font-family: "DM Mono", monospace;
-  font-style: normal;
 }

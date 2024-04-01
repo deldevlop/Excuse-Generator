@@ -16,7 +16,8 @@ let when = [
   "while I was praying"
 ];
 
-//document.getElementById("excuse1").innerHTML = "Oh my GOD !!!";
+//
+document.getElementById("excuse1").innerHTML = "Oh my GOD !!!";
 const buttonExcuse = document.getElementById("excuseButton");
 
 buttonExcuse.addEventListener("click", function() {
